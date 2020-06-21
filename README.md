@@ -125,4 +125,5 @@ Each post must have the following information:
  Depending on the above, this is our ERD
  
  
- 
+ ![alt text](https://github.com/Web-application-based-on-AI/database_team/blob/master/Er_diagram/ERD.jpg)
+
