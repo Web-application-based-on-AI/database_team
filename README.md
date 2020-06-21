@@ -10,13 +10,6 @@ Ai model run on database and use it to classify post
 
 Make frontend form where each user can post in it and pass this post to ai model to classify it and determine number of like in this post
 
-### Database Team
-
-- Ammar Shaalan.
-- Mostafa Mahmoud.
-- Asmaa Mohamed.
-
-
 
 ### Business Rules
 
