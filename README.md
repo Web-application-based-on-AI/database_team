@@ -121,3 +121,8 @@ Each post must have the following information:
 	Posts may have edit date.
 	A user can delete his post.
 
+## Finally
+ Depending on the above, this is our ERD
+ 
+ 
+ 
