@@ -114,12 +114,11 @@ Each post must have the following information:
 
 	Publish date, user, number of likes.
 	Post may have likes log.
-	Likes log has full name and picture (If exists) of users who liked the post.
+	Likes log has full name 
 	Any user can see likes log of any post.
-	Posts have a maximum length of 500 char.
+	Posts have a maximum length of 200 char.
 	Users can edit their posts.
-	Posts may have edit date.
-	A user can delete his post.
+	
 
 ## Finally
  Depending on the above, this is our ERD
