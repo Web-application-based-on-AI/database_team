@@ -1,38 +1,53 @@
 # Project Title
 
-One Paragraph of project description goes here
+Social media Network
 
-## Getting Started
+## Overview
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The idea of the project is summarized in how to make classify  posts and determine which is spam or not and if spam, this post must be discarded else insert post in database 
 
-### Prerequisites
+Ai model run on database and use it to classify post 
 
-What things you need to install the software and how to install them
+Make frontend form where each user can post in it and pass this post to ai model to classify it and determine number of like in this post
 
-```
-Give examples
-```
+### Database Team
 
-### Installing
+- Ammar Shaalan.
+- Mostafa Mahmoud.
+- Asmaa Mohamed.
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
-```
-Give the example
-```
+### Business Rules
 
-And repeat
+1. User:
+	 -	User must have unique ID (primary key).
+	 -	User must have Full Name.
+	 -	User must have password.
+	 -	User must have unique Email.
+	 -	User may have profile picture.
+	 -	User must have status.
+	 -	User must have type.
+	 -	User may have last time login.
+	 
+	 
+2. Posts:
+	  -	Post must have user ID (foreign key).
+	  -	Post must have unique ID (primary key).
+	  -	Post must have content. 
+	  -	Post must have published date.
+	  -	Post must have type.
 
-```
-until finished
-```
+3. Likes:
+	 - Like must have ID
+	 - Like must have post ID
+	 - Like must have user ID
+	 - Like must have type
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+
+
+## Description
 
 Explain how to run the automated tests for this system
 
