@@ -39,65 +39,85 @@ Make frontend form where each user can post in it and pass this post to ai model
 	  -	Post must have type.
 
 3. Likes:
-	 - Like must have ID
-	 - Like must have post ID
-	 - Like must have user ID
-	 - Like must have type
+	 - Like must have ID.
+	 - Like must have post ID.
+	 - Like must have user ID.
+	 - Like must have type.
+
+4. Comments:
+
+	 - Comment must have ID.
+	 - Comment must have Post ID.
+	 - Comment must have User ID.
+	 - Comment Must have publish time.
+	 - Comment must have content.
+
+
+5. Profiles:
+
+	 - Profile must have Profile ID.
+	 - Profile may have BirthDate.
+	 - Profile may have Gender.
+	 - Profile may have Career.
+	 - Profile may have Country.
+
+6. Admin log:
+
+	 - ADMIN must have an ID. 
+	 - ADMIN must have action time.
+	 - ADMIN may have object ID.
+	 - Admin must have object representation. 
+	 - Admin must have action flag.
+	 - Admin must change message.
+	 - Admin must have user ID.
+
 
 
 
 
 ## Description
 
-Explain how to run the automated tests for this system
+- User may publish one or many posts.
+- User may like one or more posts.
+- User may comment on one or more posts.
+- User may have a profile.
 
-### Break down into end to end tests
+- Post must be published by only one user.
+- Post may have one or more likes.
+- Post may have one or more comments.
 
-Explain what these tests test and why
+- Like must be liked by only one user.
+	
+- Comment must be published by only one user.
 
-```
-Give an example
-```
+- Users see posts from the home page.
+- User must log in before creating posts.
+- User can create account form registration page.
 
-### And coding style tests
+On registration, a user must supply the following information:
 
-Explain what these tests test and why
+	Username, Email, full name, password.
+	Users must have a unique username and unique Email.
 
-```
-Give an example
-```
+On registration, a user may supply the following information:
 
-## Deployment
+	Gender, date of birth.
+	User may have profile pictures.
+	User can edit his account information.
+	User may publish one or more posts.
+	Each post is published by one user.
+	User can like one or more posts.
+	User can delete his like on a post.
+	Post may have one or more likes.'
 
-Add additional notes about how to deploy this on a live system
+Each post must have the following information:
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+	Publish date, user, number of likes.
+	Post may have likes log.
+	Likes log has full name and picture (If exists) of users who liked the post.
+	Any user can see likes log of any post.
+	Posts have a maximum length of 500 char.
+	Users can edit their posts.
+	Posts may have edit date.
+	A user can delete his post.
 
