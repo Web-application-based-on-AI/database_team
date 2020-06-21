@@ -113,11 +113,12 @@ On registration, a user may supply the following information:
 Each post must have the following information:
 
 	Publish date, user, number of likes.
-	Post may have likes log.
-	Likes log has full name 
+	Post may have likes .
+	posts may have comments.
+	Likes log has full name. 
 	Any user can see likes log of any post.
 	Posts have a maximum length of 200 char.
-	Users can edit their posts.
+	
 	
 
 ## Finally
